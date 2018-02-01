@@ -153,7 +153,7 @@ $body-font-stack:   'Whitney SSm A', 'Whitney SSm B', serif !default;
 
   @media (min-device-width: 200px) and (max-width: 600px) { @include intro-header(15vw, 14vw); }
   @media (min-width: 601px) and (max-width: 1023px) { @include intro-header(15vw, 14vw); }
-  @media (min-width: 1024px) and (max-width: 1200px) { @include intro-header(6vw, 5.25vw); }
+  @media (min-width: 1024px) and (max-width: 1200px) { @include intro-header(15vw, 14vw); }
   @media (min-width: 1201px) and (max-width: 1670px) { @include intro-header(6vw, 5.25vw); }
   @media (min-width: 1671px) { @include intro-header(6vw, 5.25vw); }
 }
