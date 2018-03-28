@@ -127,3 +127,36 @@
   (-webkit-min-device-pixel-ratio: 2) and (min-width:1670px),
   (min-resolution: 192dpi) and (min-width:1670px) { background-image: url('https://cloudfront.crimethinc.com/assets/tce/images/cover-large@2x.jpg'); }
 }
+
+// ie11 needs a height with flexbox (rather than a min-height)
+@media all and (-ms-high-contrast:none)
+{
+  .title-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    h1, h2, div.call-to-action {
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+
+    div.call-to-action {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      
+      @media (min-width: 37.5625rem) and (max-width: 63.9375rem) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .cte-spacer, .cte-video, .cte-pdf { flex-shrink: 1; }
+      .cte-spacer { width: 10%; max-width: 20%; }
+    }
+  }
+}
