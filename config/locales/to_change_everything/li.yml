@@ -5,11 +5,11 @@ lietuvos:
       lang_code: li
       video_url: https://player.vimeo.com/video/111159930 # todo
       head:
-        title: "Tam, kad viską pakeistum, an anarchist appeal / CrimethInc. Ex-Workers' Collective" # todo
+        title: "Tam, kad viską pakeistum: anarchistinis apeliacinis skundas / CrimethInc. Ex-Workers' Collective" # todo
         meta:
-          title: To Change Everything, an anarchist appeal # todo
-          description: The case for complete self-determination—a guide for the furious, the curious, and the pure of heart # todo
-          url: http://tochangeeverything.com/ # todo
+          title: "Tam, kad viską pakeistum: anarchistinis apeliacinis skundas" # todo
+          description: Visiško apsisprendimo atvejis - gąsdinantis, įdomus ir švarus širdis # todo
+          url: http://tochangeeverything.com/lietuvos # todo
       menu:
         toc: Turinys # Googele translate
         language: lietuvos
@@ -42,7 +42,7 @@ lietuvos:
   to_change_everything:
     show:
       title_html: 'Tam, kad viską pakeistum'
-      subtitle_html: <span class="green">an</span> <span class="pink">anarchist</span> <span class="blue">appeal</span>
+      subtitle_html: <span class="green">anarchistinis</span> <span class="pink">apeliacinis</span> <span class="blue">skundas</span>
       video_cte: Žiūrėti video # google translate
       pdf_cte_html: Atsisiųskite<br />&nbsp;PDF # google translate
       pdf_get_url: /tce/get
